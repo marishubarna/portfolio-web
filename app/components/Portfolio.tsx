@@ -51,19 +51,9 @@ const projects: Project[] = [
     color: "#f9bfca",
   },
 
+  
   {
     id: 3,
-    title: "Sweet-berry Seedlings Site",
-    tag: "Freelance + Collaboration",
-    description:
-      "Sweet-berry Seedlings Site was built in collaboration with Mykhailo Zhuk website using Next.js, Tailwind, and smooth animations. Engaging UX, fast performance across all devices.",
-    link: "https://www.sweet-berry-seedlings.com/",
-    imageUrl:
-      "https://res.cloudinary.com/ddtq1ioty/image/upload/v1778001908/%D0%97%D0%BD%D1%96%D0%BC%D0%BE%D0%BA_%D0%B5%D0%BA%D1%80%D0%B0%D0%BD%D0%B0_2026-05-05_191014_dart4b.png",
-    color: "#F59E0B",
-  },
-  {
-    id: 4,
     title: "Christmas Lights",
     tag: "Freelance",
     description:
@@ -74,7 +64,7 @@ const projects: Project[] = [
     color: "#F59E0B",
   },
   {
-    id: 5,
+    id: 4,
     title: "ZOO Shop",
     tag: "Test Task",
     description:
@@ -85,7 +75,7 @@ const projects: Project[] = [
     color: "#4ECDC4",
   },
   {
-    id: 6,
+    id: 5,
     title: "Travel Booking",
     tag: "Personal",
     description:
@@ -97,7 +87,7 @@ const projects: Project[] = [
   },
 
   {
-    id: 7,
+    id: 6,
     title: "CRYPTOCURRENCY EXCHANGE",
     tag: "Personal",
     description:
@@ -107,7 +97,7 @@ const projects: Project[] = [
     color: "#e5d9d9",
   },
   {
-    id: 8,
+    id: 7,
     title: "Raccoon Recipe",
     tag: "Personal",
     link: "https://raccoonrecipe.netlify.app/#",
@@ -118,7 +108,7 @@ const projects: Project[] = [
     color: "#F59E0B",
   },
   {
-    id: 9,
+    id: 8,
     title: "Ave-Maria Pilgrimage Centre ",
     tag: "Freelance",
     description:
