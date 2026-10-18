@@ -51,9 +51,40 @@ const projects: Project[] = [
     color: "#f9bfca",
   },
 
-  
-  {
+   {
     id: 3,
+    title: "Ave-Maria Pilgrimage Centre ",
+    tag: "Freelance",
+    description:
+      "Ave-Maria Pilgrimage Centre website using Next.js, Tailwind, and smooth animations. Engaging UX, fast performance across all devices.",
+    link: "https://avemaria.place/",
+    imageUrl:
+      "https://res.cloudinary.com/ddtq1ioty/image/upload/v1777994561/%D0%97%D0%BD%D1%96%D0%BC%D0%BE%D0%BA_%D0%B5%D0%BA%D1%80%D0%B0%D0%BD%D0%B0_2026-05-04_213737_babphv.png",
+    color: "#DF0E62",
+  }, {
+    id: 4,
+    title: "The band ‘Grim and Grime’",
+    tag: "Test Task",
+    description:
+      "The band ‘Grim and Grime’ website using Next.js, Tailwind, and smooth animations. Engaging UX, fast performance across all devices.",
+    link: "https://rock-band-sand.vercel.app/",
+    imageUrl:
+      "https://res.cloudinary.com/ddtq1ioty/image/upload/v1792328315/%D0%97%D0%BD%D1%96%D0%BC%D0%BE%D0%BA_%D0%B5%D0%BA%D1%80%D0%B0%D0%BD%D0%B0_2026-10-18_145504_bfbi7i.png",
+    color: "#18497d",
+  },
+  {
+    id: 5,
+    title: "Superfit",
+    tag: "Test Task",
+    description:
+      "Superfit website using Next.js, Tailwind, and smooth animations. Engaging UX, fast performance across all devices.",
+    link: "https://superfit-aqy4.vercel.app/",
+    imageUrl:
+      "https://res.cloudinary.com/ddtq1ioty/image/upload/v1792328374/%D0%97%D0%BD%D1%96%D0%BC%D0%BE%D0%BA_%D0%B5%D0%BA%D1%80%D0%B0%D0%BD%D0%B0_2026-10-18_145514_ixmtak.png",
+    color: "#b3a408",
+  },
+  {
+    id: 6,
     title: "Christmas Lights",
     tag: "Freelance",
     description:
@@ -64,7 +95,7 @@ const projects: Project[] = [
     color: "#F59E0B",
   },
   {
-    id: 4,
+    id: 7,
     title: "ZOO Shop",
     tag: "Test Task",
     description:
@@ -75,7 +106,7 @@ const projects: Project[] = [
     color: "#4ECDC4",
   },
   {
-    id: 5,
+    id: 8,
     title: "Travel Booking",
     tag: "Personal",
     description:
@@ -87,7 +118,7 @@ const projects: Project[] = [
   },
 
   {
-    id: 6,
+    id: 9,
     title: "CRYPTOCURRENCY EXCHANGE",
     tag: "Personal",
     description:
@@ -97,7 +128,7 @@ const projects: Project[] = [
     color: "#e5d9d9",
   },
   {
-    id: 7,
+    id: 10,
     title: "Raccoon Recipe",
     tag: "Personal",
     link: "https://raccoonrecipe.netlify.app/#",
@@ -107,17 +138,7 @@ const projects: Project[] = [
       "https://res.cloudinary.com/ddtq1ioty/image/upload/v1778000361/%D0%97%D0%BD%D1%96%D0%BC%D0%BE%D0%BA_%D0%B5%D0%BA%D1%80%D0%B0%D0%BD%D0%B0_2026-05-05_185905_nquxkd.png",
     color: "#F59E0B",
   },
-  {
-    id: 8,
-    title: "Ave-Maria Pilgrimage Centre ",
-    tag: "Freelance",
-    description:
-      "Ave-Maria Pilgrimage Centre website using Next.js, Tailwind, and smooth animations. Engaging UX, fast performance across all devices.",
-    link: "https://avemaria.place/",
-    imageUrl:
-      "https://res.cloudinary.com/ddtq1ioty/image/upload/v1777994561/%D0%97%D0%BD%D1%96%D0%BC%D0%BE%D0%BA_%D0%B5%D0%BA%D1%80%D0%B0%D0%BD%D0%B0_2026-05-04_213737_babphv.png",
-    color: "#DF0E62",
-  },
+ 
 
 ];
 
