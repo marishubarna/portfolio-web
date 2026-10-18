@@ -41,15 +41,16 @@ const projects: Project[] = [
   },
   {
     id: 2,
-    title: "Ave-Maria Pilgrimage Centre ",
+    title: "Lén skin store",
+    link: "https://www.lenskinstore.ca/",
     tag: "Freelance",
     description:
-      "Ave-Maria Pilgrimage Centre website using Next.js, Tailwind, and smooth animations. Engaging UX, fast performance across all devices.",
-    link: "https://avemaria.place/",
+      "Skincare e-commerce website built with Next.js and Firebase, featuring a modern UI, product catalog, and seamless shopping experience across all devices.",
     imageUrl:
-      "https://res.cloudinary.com/ddtq1ioty/image/upload/v1777994561/%D0%97%D0%BD%D1%96%D0%BC%D0%BE%D0%BA_%D0%B5%D0%BA%D1%80%D0%B0%D0%BD%D0%B0_2026-05-04_213737_babphv.png",
-    color: "#DF0E62",
+      "https://res.cloudinary.com/ddtq1ioty/image/upload/v1792317114/%D0%97%D0%BD%D1%96%D0%BC%D0%BE%D0%BA_%D0%B5%D0%BA%D1%80%D0%B0%D0%BD%D0%B0_2026-10-18_115057_qzzhan.png",
+    color: "#f9bfca",
   },
+
   {
     id: 3,
     title: "Sweet-berry Seedlings Site",
@@ -103,29 +104,31 @@ const projects: Project[] = [
       "CRYPTOCURRENCY EXCHANGE website using HTML, CSS, JavaScript, and Tailwind. Modern responsive design, user-friendly navigation, well-structured content..",
     imageUrl:
       "https://res.cloudinary.com/ddtq1ioty/image/upload/v1777994560/%D0%97%D0%BD%D1%96%D0%BC%D0%BE%D0%BA_%D0%B5%D0%BA%D1%80%D0%B0%D0%BD%D0%B0_2026-05-04_214039_vp69wz.png",
-    color: "#A3D78A",
+    color: "#e5d9d9",
   },
   {
     id: 8,
     title: "Raccoon Recipe",
     tag: "Personal",
-    link: "https://classy-rabanadas-e873f7.netlify.app/",
+    link: "https://raccoonrecipe.netlify.app/#",
     description:
       "Raccoon Recipe website using HTML, CSS, JavaScript, and Tailwind. Modern responsive design, user-friendly navigation, well-structured content..",
     imageUrl:
       "https://res.cloudinary.com/ddtq1ioty/image/upload/v1778000361/%D0%97%D0%BD%D1%96%D0%BC%D0%BE%D0%BA_%D0%B5%D0%BA%D1%80%D0%B0%D0%BD%D0%B0_2026-05-05_185905_nquxkd.png",
     color: "#F59E0B",
   },
-  // {
-  //   id: 9,
-  //   title: "Christmas Lights",
-  //   tag: "Freelance",
-  //   description:
-  //     "Christmas lights installation services website using Next.js, Tailwind, and smooth animations. Engaging UX, fast performance across all devices.",
-  //   imageUrl:
-  //     "https://res.cloudinary.com/ddtq1ioty/image/upload/v1777994560/%D0%97%D0%BD%D1%96%D0%BC%D0%BE%D0%BA_%D0%B5%D0%BA%D1%80%D0%B0%D0%BD%D0%B4_2026-05-04_213719_euibfb.png",
-  //   color: "#F59E0B",
-  // },
+  {
+    id: 9,
+    title: "Ave-Maria Pilgrimage Centre ",
+    tag: "Freelance",
+    description:
+      "Ave-Maria Pilgrimage Centre website using Next.js, Tailwind, and smooth animations. Engaging UX, fast performance across all devices.",
+    link: "https://avemaria.place/",
+    imageUrl:
+      "https://res.cloudinary.com/ddtq1ioty/image/upload/v1777994561/%D0%97%D0%BD%D1%96%D0%BC%D0%BE%D0%BA_%D0%B5%D0%BA%D1%80%D0%B0%D0%BD%D0%B0_2026-05-04_213737_babphv.png",
+    color: "#DF0E62",
+  },
+
 ];
 
 const skills: Skill[] = [
@@ -183,7 +186,7 @@ const Navbar = () => {
 
       {/* Hire me CTA */}
       <a
-        href="mailto:your@email.com"
+        href="mailto:shunmarian2@gmail.com"
         className="hidden md:inline-flex items-center gap-2 text-sm font-semibold px-5 py-2 rounded-full transition-all"
         style={{ background: "#FF6B35", color: "#fff" }}
         onMouseEnter={(e) => (e.currentTarget.style.background = "#e8572a")}
